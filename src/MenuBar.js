@@ -22,89 +22,72 @@ export default function MenuBar() {
 
         <Col className="d-flex justify-content-between">
           <Col className="header-tab-positioning">
-            <div>
-              
-                {underlinedTab === "Home" ? (
-                  <a rel="noopener" href="/" onClick={() => navigate("/")}>
-                    <h3><u>Home</u></h3>
-                  </a>
-                ) : (
-                  <a
-                    rel="noopener"
-                    href="index.html"
-                    onClick={() => navigate("/")}
-                  >
-                    <h5>Home</h5>
-                  </a>
-                )}
-              
+            <div onClick={() => navigate("/")} style={{ cursor: "pointer" }}>
+              {underlinedTab === "Home" ? (
+                <a rel="noopener">
+                  <h3>
+                    <u>Home</u>
+                  </h3>
+                </a>
+              ) : (
+                <a rel="noopener">
+                  <h5>Home</h5>
+                </a>
+              )}
             </div>
           </Col>
           <Col className="header-tab-positioning">
-            <div>
-              
-                {underlinedTab === "Resume" ? (
-                  <a
-                    rel="noopener"
-                    href="/resume"
-                    onClick={() => navigate("/resume")}
-                  >
-                    <h3><u>Resume</u></h3>
-                  </a>
-                ) : (
-                  <a
-                    rel="noopener"
-                    href="/resume"
-                    onClick={() => navigate("/resume")}
-                  >
-                    <h5>Resume</h5>
-                  </a>
-                )}
-              
+            <div
+              onClick={() => navigate("/resume")}
+              style={{ cursor: "pointer" }}
+            >
+              {underlinedTab === "Resume" ? (
+                <a rel="noopener">
+                  <h3>
+                    <u>Resume</u>
+                  </h3>
+                </a>
+              ) : (
+                <a rel="noopener">
+                  <h5>Resume</h5>
+                </a>
+              )}
             </div>
           </Col>
           <Col className="header-tab-positioning">
-            <div>
-              
-                {underlinedTab === "Projects" ? (
-                  <a
-                    rel="noopener"
-                    href="/projects"
-                    onClick={() => navigate("/projects")}
-                  >
-                    <h3><u>Projects</u></h3>
-                  </a>
-                ) : (
-                  <a
-                    rel="noopener"
-                    href="/projects"
-                    onClick={() => navigate("/projects")}
-                  >
-                    <h5>Projects</h5>
-                  </a>
-                )}
+            <div
+              style={{ cursor: "pointer" }}
+              onClick={() => navigate("/projects")}
+            >
+              {underlinedTab === "Projects" ? (
+                <a rel="noopener">
+                  <h3>
+                    <u>Projects</u>
+                  </h3>
+                </a>
+              ) : (
+                <a rel="noopener">
+                  <h5>Projects</h5>
+                </a>
+              )}
             </div>
           </Col>
           <Col className="header-tab-positioning">
-            <div>
-              
-                {underlinedTab === "Contact" ? (
-                  <a
-                    rel="noopener"
-                    href="/contact"
-                    onClick={() => navigate("/contact")}
-                  >
-                    <h3><u>Contact</u></h3>
-                  </a>
-                ) : (
-                  <a
-                    rel="noopener"
-                    href="/contact"
-                    onClick={() => navigate("/contact")}
-                  >
-                    <h5>Contact</h5>
-                  </a>
-                )}
+            <div
+              style={{ cursor: "pointer" }}
+              onClick={() => navigate("/contact")}
+            >
+              {underlinedTab === "Contact" ? (
+                <a rel="noopener">
+                  <h3>
+                    <u>Contact</u>
+                  </h3>
+                </a>
+              ) : (
+                <a rel="noopener">
+                  <h5>Contact</h5>
+                </a>
+              )}
             </div>
           </Col>
         </Col>
