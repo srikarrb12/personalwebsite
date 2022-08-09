@@ -13,7 +13,7 @@ import Contact from './Contact';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter >
+      <BrowserRouter basename="/test">
       <MenuBar />
         <Routes>
           <Route path={"/"} element={<Home />}/>
