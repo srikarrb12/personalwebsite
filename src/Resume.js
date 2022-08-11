@@ -18,7 +18,7 @@ export default function Resume() {
                   <>
                     <li>
                       Designed and built an internal application to streamline
-                      process of updating client email templates.
+                      process of updating client email templates in an Agile workflow.
                     </li>
                     <li>
                       Used ReactJS and various JS libraries to create the
