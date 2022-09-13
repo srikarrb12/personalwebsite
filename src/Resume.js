@@ -124,7 +124,7 @@ export default function Resume() {
             <hr></hr>
             <Row>
               <ResumeEntry
-                sectionTitle="Volunteering"
+                sectionTitle="Leadership"
                 dates="Mar 2018 - Present"
                 company="Philadelphia Children's Foundation"
                 position="Co-Founder of Western Suburbs Chapter"
