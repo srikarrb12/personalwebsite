@@ -13,7 +13,7 @@ export default function Resume() {
                 sectionTitle="Work Experience"
                 dates="Jun 2023 - Aug 2023"
                 company="Capital One"
-                position="Technology Intern"
+                position="Software Engineering Intern"
                 description={
                   <>
                     <li>

@@ -13,7 +13,7 @@ export default function IntroText() {
             major at Georgia Tech! I am also a Software Engineering Intern at
             Capital One. I am a highly motivated and passionate student
             interested in exploring difference CS fields. I have formal
-            knowledge of full- stack programming languages, such as Java, Python, JS,
+            knowledge of full-stack programming languages, such as Java, Python, JS,
             SQL, and more, gained through industry experience, excellent
             classroom performance, as well as independent learning and
             exploration. I also has experience with infrastructure as service
