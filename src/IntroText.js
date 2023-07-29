@@ -9,11 +9,11 @@ export default function IntroText() {
         <div className="col-10" style={{ textAlign: "left" }}>
           <h4 className="bold">Let me introduce myself</h4>
           <p className="light">
-            My name is Srikar Bhumireddy and I am a second year Computer Science
+            My name is Srikar Bhumireddy and I am a third year Computer Science
             major at Georgia Tech! I am also a Software Engineering Intern at
-            State Farm. I am a highly motivated and passionate student
+            Capital One. I am a highly motivated and passionate student
             interested in exploring difference CS fields. I have formal
-            knowledge of full- stack programming languages, such as Java, JS,
+            knowledge of full- stack programming languages, such as Java, Python, JS,
             SQL, and more, gained through industry experience, excellent
             classroom performance, as well as independent learning and
             exploration. I also has experience with infrastructure as service

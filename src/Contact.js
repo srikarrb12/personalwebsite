@@ -31,7 +31,7 @@ export default function Contact() {
                 
                 <div class="col-4">
                   <div style={{textAlign: "center", paddingTop: "20%"}}>
-                    <a href="mailto:srikarrb12@gmail.com" target="_blank">
+                    <a target="_top" href="mailto:srikarrb12@gmail.com">
                       <img style={{width: "20%", borderRadius: "100%"}} src={gmailLogo} alt="Gmail Logo"></img>
                       <h4 style={{textAlign: "center"}}>Email me!</h4>
                     </a>
